@@ -4,8 +4,6 @@ import * as actions from "./api";
 import _ from "lodash";
 import moment from "moment";
 
-let lastId = 0;
-
 const slice = createSlice({
   name: "bugs",
   initialState: {
